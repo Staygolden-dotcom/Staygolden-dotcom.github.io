@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Annie's food_Empire</title>
+  <link rel="stylesheet" href="Anny.css">
+  <link rel="icon" href="../../Assets/Images/food-logo.png">
+</head>
+<body>
+  <header>
+    <div class="logo" >Annie's Food_Empire</div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#menu">menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <div class="decor"></div>
+    <div class="hero-text">
+      <h1>Welcome to Annie's Foodempire</h1>
+      <p>Bringing the flavor of Nigeria to the Philippines — discover mouthwatering dishes crafted with passion!</p>
+      <button class="hero-btn" id="orderNowBtn">Explore Recipes</button>
+    </div>
+    <div class="hero-img">
+      <img src="../../../../Pictures/Anny-hero.jpg" alt="Annie'food logo" />
+    </div>
+  </section>
+
+
+  <!-- How it works -->
+  <section class="steps-section" id="how">
+    <div class="steps-title">How It Works</div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-icon">🛒</div>
+        <div class="step-title">Choose Food</div>
+        <div class="step-desc">Browse our menu and pick your favorite dishes. customise how ever you want.</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">🧑‍🍳</div>
+        <div class="step-title">We Cook</div>
+        <div class="step-desc">we prepare your meal fresh and healthy.</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">🚚</div>
+        <div class="step-title">Fast Delivery</div>
+        <div class="step-desc">Enjoy fast and safe delivery.</div>
+      </div>
+    </div>
+  </section>
+  <!-- how it works end -->
+
+  <!-- Menu -->
+  <section class="menu-section" id="menu">
+    <div class="menu-title">Explore Our Best Menu</div>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img class="menu-img" src="../../../../Pictures/rice.jpg" alt="Burger" />
+        <div class="menu-content">
+          <div class="menu-name">Classic Jollof Rice</div>
+          <div class="menu-desc">Jollof like no other, withour signature Recipes.</div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-img" src="../../../../Pictures/beans.jpg" alt="Beans and plantain" />
+        <div class="menu-content">
+          <div class="menu-name">Beans and Plantain</div>
+          <div class="menu-desc">A colorful mix of greens, veggies, and healthy toppings.</div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-img" src="../../../../Pictures/fried-rice.jpg" alt="Pizza" />
+        <div class="menu-content">
+          <div class="menu-name">Fried Rice</div>
+          <div class="menu-desc">Stone-baked pizza with gooey cheese and fresh toppings.</div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-img" src="../../../../Pictures/spag.jpg" alt="Pasta" />
+        <div class="menu-content">
+          <div class="menu-name">Italian Pasta</div>
+          <div class="menu-desc">Classic pasta tossed in a rich coconut cream.</div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-img" src="../../../../Pictures/cake.jpg" alt="Dessert" />
+        <div class="menu-content">
+          <div class="menu-name">Chocolate Dessert</div>
+          <div class="menu-desc">Decadent chocolate treat to finish your meal.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Ends -->
+
+   <!-- Gallery -->
+<section id="gallery" class="gallery1"> 
+  <h2>Gallery</h2>  
+    <div class="gallery-section">
+      <div class="gallery-container">
+        <div class="gallery-track">
+          <div class="slide2"><img src="../../../../Pictures/fried-rice.jpg" alt="Slide 1" /></div>
+          <div class="slide2"><img src="../../../../Pictures/spag.jpg" alt="Slide 2" /></div>
+          <div class="slide2"><img src="../../../../Pictures/beans.jpg" alt="Slide 3" /></div>
+          <div class="slide2"><img src="../../../../Pictures/spag2.jpg" alt="Slide 4" /></div>
+          <div class="slide2"><img src="../../../../Pictures/rice.jpg" alt="Slide 5" /></div>
+          <div class="slide2"><img src="../../../../Pictures/cake.jpg" alt="Slide 6" /></div>
+          <div class="slide2"><img src="../../../../Pictures/rice2.jpg" alt="Slide 1" /></div>
+          <div class="slide2"><img src="../../../../Pictures/fried-rice.jpg" alt="Slide 1" /></div>
+          <div class="slide2"><img src="../../../../Pictures/spag.jpg" alt="Slide 2" /></div>
+        </div>
+      </div> 
+    </div>
+</section>
+<!-- Gallery Ends -->
+
+  <!-- Contact -->
+  <section class="contact-section" id="contact">
+    <div class="contact-title">Contact Us</div>
+    <form class="contact-form" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="subject" placeholder="Subject" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+      <div class="contact-success" id="contactSuccess">Thank you! Your message has been sent.</div>
+    </form>
+  </section>
+  <!-- contact Ends -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <div>Contact: <a href="mailto:info@salad.com" style="color:#ffe066;text-decoration:underline;">info@salad.com</a></div>
+        <div>123 Healthy Lane, Food City</div>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">
+          <svg width="24" height="24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.87v-6.98h-2.3v-2.9h2.3v-2.2c0-2.27 1.35-3.53 3.42-3.53.99 0 2.02.18 2.02.18v2.22h-1.14c-1.12 0-1.47.7-1.47 1.42v1.9h2.5l-.4 2.9h-2.1v6.98A10 10 0 0 0 22 12z"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="24" height="24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14.86 5.48 5.48 0 0 0 2.4-3.02 10.8 10.8 0 0 1-3.44 1.3 5.42 5.42 0 0 0-9.3 4.94A15.37 15.37 0 0 1 1.64 2.16 5.42 5.42 0 0 0 3.17 9.7a5.39 5.39 0 0 1-2.45-.68v.07a5.42 5.42 0 0 0 4.35 5.31 5.5 5.5 0 0 1-2.44.09 5.43 5.43 0 0 0 5.07 3.76A10.87 10.87 0 0 1 1 19.54 15.35 15.35 0 0 0 8.29 21c9.05 0 14-7.5 14-14v-.64A10.06 10.06 0 0 0 23 3z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg width="24" height="24" fill="currentColor"><path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm-5 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2025 Annie's Food_Empire. All rights reserved.
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+  <button id="scrollTopBtn" title="Scroll to Top">&#8679;</button>
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = link.getAttribute('href');
+        if (href.startsWith('#')) {
+          e.preventDefault();
+          document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+          link.classList.add('active');
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    });
+    // Hero button scroll to menu
+    document.getElementById('orderNowBtn').addEventListener('click', function() {
+      document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+    });
+    // Contact form interactivity
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('contactSuccess').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('contactSuccess').style.display = 'none';
+        document.getElementById('contactForm').reset();
+      }, 3000);
+    });
+    // Scroll to top button
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 400) {
+        scrollBtn.style.display = 'block';
+      } else {
+        scrollBtn.style.display = 'none';
+      }
+    });
+    scrollBtn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
