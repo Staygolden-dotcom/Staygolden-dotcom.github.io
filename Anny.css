@@ -385,11 +385,11 @@
       gap: 1rem;
     }
     .footer-info {
-      flex: 1 1 300px;
+      flex: 1 1 50px;
       font-size: 1rem;
     }
     .footer-social {
-      flex: 1 1 300px;
+      flex: 1 1 50px;
       display: flex;
       justify-content: center;
       gap: 1.5rem;
