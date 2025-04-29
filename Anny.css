@@ -369,7 +369,7 @@
     footer {
       background: linear-gradient(90deg, #feb47b, #ff9800);
       color: white;
-      padding: 2rem 1rem 1rem 1rem;
+      padding: 1rem; 
       text-align: center;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
