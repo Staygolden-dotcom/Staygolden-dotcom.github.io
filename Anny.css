@@ -135,6 +135,7 @@
     .steps-section {
       margin: 3rem 4vw 2rem 4vw;
       text-align: center;
+      justify-content: center;
       justify-items: center;
     }
     .steps-title {
